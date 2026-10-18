@@ -23,3 +23,12 @@ data/processed/*
 Thumbs.db
 .vscode/
 .idea/
+# Environment files and secrets
+.env.*
+!.env.example
+
+# Private keys and credentials
+*.pem
+*.key
+credentials.json
+secrets.json
