@@ -1,8 +1,12 @@
-torch
-transformers
-peft
-accelerate
+# HelpDeskBuddy AI Assistant
+# Install PyTorch separately for your CPU or CUDA environment.
+
+transformers==5.20.2
+peft==0.21.2
+accelerate==1.15.0
 datasets
 PyYAML
-gradio
+gradio==6.30.0
+python-dotenv>=1.0.0
 safetensors
+huggingface-hub
